@@ -1,11 +1,9 @@
 # Movie Project
 This is a movie database project, where it shows movies, their casts, ratings, trailers, related movies, genres, and so on.
 
-This project uses The Movie DB API: `https://api.themoviedb.org/3`. It is up to
-you to use your Google and Postman skills to explore the API and understand the
-data.
+This project uses The Movie DB API: `https://api.themoviedb.org/3`. 
 
-# Already built for you
+# Features
 - A home page that shows popular movies
 - When you click one of the movies, you'll see the Single Movie page, which includes:
     - Movie poster
@@ -15,12 +13,10 @@ data.
     - Movie description
     - An empty cast section
 
-# What you and your partner will build
 
-## Homepage
 
 ### Navbar
-Add a universal navbar (it appears on every page) to the home page that includes
+ A universal navbar (it appears on every page) to the home page that includes
 buttons that go to the following pages:
 
 - Home button, takes you to the home page
@@ -35,7 +31,7 @@ related results.
 on (popular, relase date, top rated, now playing and up coming) 
 
 ### Footer
-Add a universal footer that includes:
+ a universal footer that includes:
 
 - Credit to you and your partner for building the website, 
 - You and your partner's github link inside an icon and optionally, your social
@@ -43,9 +39,8 @@ Add a universal footer that includes:
 
 ### Styling
 
-- Make it so that hovering over the movie makes the mouse pointer icon seem
-  clickable. Right now, if you are about to click a movie, it's not obvious that
-  it's clickable.
+-  Hovering over the movie makes the mouse pointer icon seem
+  clickable.
 
 ## Movies List Page
 
@@ -53,15 +48,12 @@ Add a universal footer that includes:
 
 - Using CSS and Bootstrap, display the page as a grid with 3 columns (3 movies
   in the same row)
-- Make it responsive where it displays 2 columns for tablets and 1 column for
+- Responsive where it displays 2 columns for tablets and 1 column for
   phones
-- Style the rest of the page however you like.
-- Add the rating and genres to the movies in the home page and a description
+- Rating and genres to the movies in the home page and a description
   when you hover over one of them
 
-## Single Movie Page
-We build part of the single movie page for you, but the information isn't
-totally complete, a few more features are needed:
+## Single Movie Page Feauters:
 
 - The main 5 actors of the movies in the credit section
 - The movie language
@@ -74,10 +66,7 @@ totally complete, a few more features are needed:
 ### Functionality
 - Clicking an actor in the main actors should go to the single actor page.
 
-### Other requirements
-- There's an issue with duplication in the movie page that has to be fixed (and
-  you need to open the site and read the code to fix it)
-- Style the page however you like
+
 
 ## Actor List Page
 Displays a list of actors styles in the same way as the movies list page, but
@@ -97,7 +86,4 @@ credits in the single movie page.
 - A biography about the actor
 - A list of movies the actor participated in
 
-## Bonus
-If you finish early you can work on the same functionalities, but for TV shows.
-Your code should be completely reusable (e.g., don't just copy paste a second
-copy of the files).
+
